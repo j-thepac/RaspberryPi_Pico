@@ -1,5 +1,5 @@
 # Raspberry Pi Pico
-## Micro Python:
+## Micro Python [ Recommended ]:
 	1. Open Source
 	2. Modules are cheaper 	
 ## Circuit Python : 
