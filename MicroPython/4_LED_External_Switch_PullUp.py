@@ -1,3 +1,5 @@
+# LED External With Switch
+
 from machine import Pin
 from time import sleep
 
@@ -10,7 +12,7 @@ led = Pin(15, Pin.OUT)
 button = Pin(16, Pin.IN, Pin.PULL_UP)
 
 while True:
-    if button.value()==0:
-        led.value(1)
-    else:
-        led.value(0)
+    if button.value():
+        led.toggle()
+        time.sleep(0.5)
+        print("1")
